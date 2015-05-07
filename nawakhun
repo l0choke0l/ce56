@@ -34,7 +34,7 @@ public class time {
 		//System.out.println("before sort" + Arrays.toString(J) );
 		Arrays.sort(J);
 		//System.out.println("after sort" + Arrays.toString(J) );
-		for(int k=1; k<J.length; k++) {
+		for(int k=1; k<J.length-1; k++) {
 			TimeProcess1 += J[k];
 			TotalWait1 += TimeProcess1;
 			System.out.println("------ " + TotalWait1 +" .. "+TimeProcess1);
